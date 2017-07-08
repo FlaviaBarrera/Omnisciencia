@@ -1,0 +1,82 @@
+/*Menu Principal*/
+.nav {
+  background-color: white;
+  height: 98px;
+  line-height:98px;
+  border-bottom:3px solid #044173;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+}
+.logo {
+  height: 94px;
+  width: auto;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+}
+nav ul li.active {
+  background-color:rgba(0,0,0,0);
+  font-weight: bold;
+  border-top: solid #08c;
+}
+
+div h3 {
+  color:#082152;
+  font-weight: bold;
+  text-shadow: 1px 2px #FFFFFF;
+}
+
+.page-footer{
+    background-color: #333;
+}
+.page-footer .footer-copyright
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+.p-footer{
+  color: grey;
+}
+
+.page-footer [class^="icon-"] {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+}
+
+.row .col.social {
+  padding-top: 1rem;
+}
+/*Menu Scroll*/
+.nav2 {
+  height: 75px;
+  line-height:75px;
+}
+.logo2{
+  height: 72px;
+}
+
+nav a {
+  color: #044173;
+}
+nav ul a {
+  color: black;
+  padding-top:12px;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+
+}
